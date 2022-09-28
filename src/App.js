@@ -6,10 +6,16 @@ import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <div>
-     <Navbar></Navbar>
      
-    <div className='body'>
+
+    <div className='main-container grid lg:grid-cols-7 sm:grid-cols-1 md:grid-cols-7'>
+
+   <div className='activity bg-gray-100 col-span-5'>
+   <Navbar></Navbar>
+
     <Activity> </Activity>
+   </div>
+
      <DetailsInfo> </DetailsInfo>
     </div>
 

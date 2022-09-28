@@ -1,7 +1,4 @@
-.body {
-  /* text-align: center; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-   display: grid;
-   grid-template-columns: 3fr 1fr;
-}
+
 

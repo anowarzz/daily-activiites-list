@@ -3,15 +3,15 @@ import logo from '../../images/routine.png'
 
 const Navbar = () => {
     return (
-        <div className='bg-stone-500 py-3'>
+        <div>
 
-            <div className='flex items-center text-white '>
+            <div className='flex items-center'>
 
-            <img src={logo} alt="" className='w-20 ml-4' />
-            <h2 className='lg:text-6xl text-center pl-3 sm:text-2xl'>This is the navbar</h2>
+            <img src={logo} alt="" className='w-20 ml-4 pt-3' />
+            <h2 className='lg:text-4xl text-center pl-3 sm:text-2xl font-bold'>My Daily Activities</h2>
 
             </div>
-
+        <hr className='mt-2'/>
         </div>
     );
 };
