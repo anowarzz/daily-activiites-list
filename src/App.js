@@ -1,10 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Activity from './components/Activity/Activity';
+import DetailsInfo from './components/DetailsInfo/DetailsInfo';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App text-center text-5xl" >
-     <h1>Hello World</h1>
+    <div>
+     <Navbar></Navbar>
+     
+    <div className='body'>
+    <Activity> </Activity>
+     <DetailsInfo> </DetailsInfo>
+    </div>
+
     </div>
   );
 }
