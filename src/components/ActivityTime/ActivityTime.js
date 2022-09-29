@@ -17,6 +17,11 @@ const ActivityTime = () => {
 
             <h6 className='text-xl font-semibold'>Break Time</h6>
             <p className='font-semibold pt-1'>0 Minutes</p>
+
+            </div>
+
+            <div className='mt-8 text-center'>
+            <button className=" btn bg-purple-500 border-none w-52 mt-4 hover:bg-fuchsia-600">Activity Completed</button>
             </div>
         </div>
     );

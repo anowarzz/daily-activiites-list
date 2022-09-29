@@ -5,7 +5,7 @@ import MyInfo from '../MyInfo/MyInfo';
 
 const DetailsInfo = () => {
   return (
-    <div className='bg-gray-100'>
+    <div>
       <MyInfo> </MyInfo>
       <AddBreak> </AddBreak>
       <ActivityTime> </ActivityTime>
