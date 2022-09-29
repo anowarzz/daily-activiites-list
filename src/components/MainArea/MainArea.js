@@ -12,15 +12,6 @@ const MainArea = ({myActivity}) => {
     return (
        <div>
         
-        {/* <div className="">
-            
-        <img src={image} alt="" className="w-64"/>
-        <h3 className="text-2xl font-bold">{activityName}</h3>
-        <p className="font-semibold">Time Required: {time} Minutes</p>
-        <p>{description}</p>
-        <button className="btn btn-secondary">Button</button>
-        
-        </div> */}
         <div className="card bg-base-100 shadow-xl mb-3 mx-2">
   <img className="p-3 rounded-2xl mb-0" src={image} alt="p" />
   <div className="card-body">
@@ -28,7 +19,7 @@ const MainArea = ({myActivity}) => {
     <p>{description}</p>
     <p className="font-semibold">Time Required: {time} Minutes</p>
     <div className="card-actions justify-center ">
-      <button className="btn btn-primary w-52 mt-4">Add To List</button>
+      <button className="btn bg-emerald-500 hover:bg-lime-500 border-none w-52 mt-4 ">Add To List</button>
     </div>
   </div>
 </div>
