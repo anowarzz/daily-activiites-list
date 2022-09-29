@@ -28,7 +28,7 @@ const MyActivity = () => {
 
 
 
-        <div className="border col-span-2">
+        <div className="border col-span-5 sm:col-span-2 md:col-span-2 lg:col-span-2">
     <DetailsInfo></DetailsInfo>
                 
         </div>
