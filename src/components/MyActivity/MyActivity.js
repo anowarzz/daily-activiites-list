@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
+import ActivityList from "../ActivityList/ActivityList";
 import DetailsInfo from "../DetailsInfo/DetailsInfo";
-import MainArea from "../MainArea/MainArea";
 import Navbar from "../Navbar/Navbar";
 
 const MyActivity = () => {
@@ -19,11 +19,9 @@ const MyActivity = () => {
 
         <div className="col-span-5">
           <Navbar> </Navbar>
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-4 gap-2 bg-base-200">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-4 gap-2 bg-zinc-300">
             {activities.map((activity) => (
-              <MainArea myActivity={activity} key={activity.id}>
-            
-              </MainArea>
+              <ActivityList myActivity={activity} key={activity.id}></ActivityList>
             ))}
           </div>
         </div>
