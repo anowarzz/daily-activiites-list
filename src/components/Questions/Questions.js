@@ -37,20 +37,22 @@ const Questions = () => {
         <div className="mt-8 flex justify-around text-center">
             <div>
             <h4 className="text-2xl font-bold">Props</h4>
-            <ul className="text-lg font-semibold">
-                <li>THis is the dummy text i am setting temporarily</li>
-                <li>THis is the dummy text i am setting temporarily</li>
-                <li>THis is the dummy text i am setting temporarily</li>
-                <li>THis is the dummy text i am setting temporarily</li>
+            <ul className="text-lg  mt-3 text-justify font-serif">
+                <li>1. Props are read-only.</li>
+                <li>2. Props are immutable</li>
+                <li>3. Props allow you to pass data from one <br /> component to other components as an argument.</li>
+                <li>4. Props can be accessed by the child component.</li>
+                <li>5. Stateless component can have Props</li>
             </ul>
             </div>
             <div>
-            <h4 className="text-2xl font-bold">State</h4>
-            <ul  className="text-lg font-semibold">
-                <li>THis is the dummy text i am setting temporarily</li>
-                <li>THis is the dummy text i am setting temporarily</li>
-                <li>THis is the dummy text i am setting temporarily</li>
-                <li>THis is the dummy text i am setting temporarily</li>
+            <h4 className="text-2xl font-bold ">State</h4>
+            <ul  className="text-lg  mt-3 text-justify font-serif">
+                <li>1. State changes can be asynchronous.</li>
+                <li>2. State is mutable.</li>
+                <li>3. State holds information about the components</li>
+                <li>4. State cannot be accessed by child components.</li>
+                <li>5. Stateless components cannot have State.</li>
             </ul>
             </div>
             
@@ -72,7 +74,7 @@ const Questions = () => {
         <li>1. Running on state change : Validating input field</li>
         <li>2. Running on state change : Live filtering</li>
         <li>3. Running on state change : Trigger animation on new array value</li>
-        <li>4. Running on props change : Updating fetched API data to get updated price</li>
+        <li>4. Running on props change : Updating fetched API data to get updated informations</li>
      </ul>
      
 
