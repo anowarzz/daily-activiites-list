@@ -1,6 +1,4 @@
 import './App.css';
-import Activity from './components/Activity/Activity';
-import DetailsInfo from './components/DetailsInfo/DetailsInfo';
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
@@ -8,19 +6,22 @@ function App() {
     <div>
      
 
-    <div className='main-container grid lg:grid-cols-7 sm:grid-cols-1 md:grid-cols-7'>
+    <div className='grid lg:grid-cols-7 sm:grid-cols-1 md:grid-cols-7 bg-slate-400'>
 
-   <div className='activity bg-gray-100 col-span-5'>
-   <Navbar></Navbar>
-
-    <Activity> </Activity>
-   </div>
-
-     <DetailsInfo> </DetailsInfo>
+  
+   <div className='activity bg-blue-100 col-span-5'>
+   <Navbar> </Navbar>
     </div>
 
+    <div>
+    <h3 className='text-3xl text-center'>This Is the information area</h3>
     </div>
-  );
+    </div>
+   </div> 
+
+  )
+
 }
+  
 
-export default App;
+export default App ;
