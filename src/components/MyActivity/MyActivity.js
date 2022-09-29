@@ -16,12 +16,13 @@ const MyActivity = () => {
   return (
     <div>
       <div className="grid lg:grid-cols-7 sm:grid-cols-1 md:grid-cols-7">
+
         <div className="col-span-5">
           <Navbar> </Navbar>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-4 gap-2 bg-base-200">
             {activities.map((activity) => (
               <MainArea myActivity={activity} key={activity.id}>
-                {" "}
+            
               </MainArea>
             ))}
           </div>
@@ -29,7 +30,7 @@ const MyActivity = () => {
 
 
 
-        <div>
+        <div className="border col-span-2">
     <DetailsInfo></DetailsInfo>
                 
         </div>
