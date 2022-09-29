@@ -23,12 +23,22 @@ const MyInfo = () => {
       </div>
 
       {/* Personal Information */}
-  <div className="mt-8  bg-gray-200 shadow-md flex justify-between p-5 border rounded-lg mx-auto w-[90%]">
-    <h5> <span className="text-2xl font-bold">62</span> Kg</h5>
+  <div className="mt-8  bg-gray-200 shadow-md  p-5 border rounded-lg mx-auto w-[90%]">
+   <div className="flex justify-between">
+   <h5> <span className="text-2xl font-bold">62</span> Kg</h5>
     <h5><span className="text-2xl font-bold">6</span> feet</h5>
     <h5><span className="text-2xl font-bold">23</span> Years</h5>
+   </div>
+
+    <div className="flex justify-between mt-2">
+      <p className="pr-4">Weight</p>
+      <p className="pr-4">Height</p>
+      <p className="pr-4">Age</p>
+    </div>
+
     </div>
     
+
 
       </div>
 
