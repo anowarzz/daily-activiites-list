@@ -1,8 +1,8 @@
 const ActivityList = ({myActivity}) => {
 
-    const {id, activityName, time, description, image} = myActivity;
+    const {id, activityName, time, image} = myActivity;
 
-    console.log(id, activityName, time, description, image);
+    console.log(id, activityName, time, image);
     
     
 
@@ -13,7 +13,6 @@ const ActivityList = ({myActivity}) => {
   <img className="p-3 rounded-2xl mb-0" src={image} alt="p" />
   <div className="card-body">
     <h2 className="card-title mt-0">{activityName}</h2>
-    <p>{description}</p>
     <p className="font-semibold">Time Required: {time} Minutes</p>
     <div className="card-actions justify-center ">
       <button className="btn bg-emerald-500 hover:bg-lime-500 border-none w-52 mt-4 ">Add To List</button>
