@@ -1,10 +1,12 @@
-const ActivityList = ({myActivity}) => {
+const ActivityList = (props) => {
+  
 
-    const {id, activityName, time, image} = myActivity;
+  const {handleActivityTime, myActivity} = props 
+  
+    const {activityName, timeMinutes, image} = myActivity;
 
-    console.log(id, activityName, time, image);
-    
-    
+
+  
 
     return (
        <div>
@@ -13,9 +15,11 @@ const ActivityList = ({myActivity}) => {
   <img className="p-3 rounded-2xl mb-0" src={image} alt="p" />
   <div className="card-body">
     <h2 className="card-title mt-0 font-bold">{activityName}</h2>
-    <p className="font-semibold">Time Required: {time} Minutes</p>
+    <p className="font-semibold">Time Required: {timeMinutes} Minutes</p>
+
     <div className="card-actions justify-center ">
-      <button className="btn bg-emerald-500 hover:bg-lime-500 border-none w-52 mt-4 ">Add To List</button>
+      <button onClick={() => handleActivityTime(myActivity)} className="btn bg-emerald-500 hover:bg-lime-500 border-none w-52 mt-4 ">Add To List</button>
+
     </div>
   </div>
 </div>
