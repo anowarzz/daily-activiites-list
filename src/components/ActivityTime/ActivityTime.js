@@ -1,11 +1,20 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ActivityTime = ({myActivity}) => {
 
+
+    const activityToast = () => {
+
+        toast.success('Activity Completed Successfully')
+    }
+
+
     let totalTime = 0;
-    
+
     for(const activity of myActivity){
         totalTime = totalTime + activity.timeMinutes
     }
@@ -31,8 +40,10 @@ const ActivityTime = ({myActivity}) => {
             </div>
 
             <div className='mt-8 text-center'>
-            <button className=" btn bg-purple-500 border-none w-52 mt-4 hover:bg-fuchsia-600">Activity Completed</button>
+            <button onClick={activityToast} className=" btn bg-purple-500 border-none w-52 mt-4 hover:bg-fuchsia-600">Activity Completed</button>
             </div>
+
+            <ToastContainer position="top-center" autoClose={3000} />
         </div>
     );
 };
