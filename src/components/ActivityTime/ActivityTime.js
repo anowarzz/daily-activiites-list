@@ -4,7 +4,12 @@ import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const ActivityTime = ({myActivity}) => {
+const ActivityTime = (props) => {
+
+
+
+    const {myActivity, breakTime} =  props;
+
 
 
     const activityToast = () => {
@@ -35,7 +40,7 @@ const ActivityTime = ({myActivity}) => {
             <div className="mt-8 shadow-md  bg-gray-200  flex justify-around p-4 border rounded-lg mx-auto w-[90%]">
 
             <h6 className='text-xl font-semibold'>Break Time</h6>
-            <p className='font-semibold pt-1'>0 Minutes</p>
+            <p className='font-semibold pt-1'> {breakTime}  Minutes</p>
 
             </div>
 
