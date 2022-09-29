@@ -3,6 +3,7 @@
       "id": "1",
       "activityName": "Eating",
       "time": "27",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quaerat facilis, vero possimus ratione quam. Corrupti iste culpa vitae deleniti.",
       "image": "https://i.ibb.co/2nvbG1M/eating.jpg"
     },
 
@@ -10,6 +11,7 @@
       "id": "2",
       "activityName": "Study",
       "time": "67",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quaerat facilis, vero possimus ratione quam. Corrupti iste culpa vitae deleniti.",
       "image": "https://i.ibb.co/GvqGkkz/study.jpg"
     },
 
@@ -17,6 +19,7 @@
       "id": "3",
       "activityName": "Sleeping",
       "time": "55",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quaerat facilis, vero possimus ratione quam. Corrupti iste culpa vitae deleniti.",
       "image": "https://i.ibb.co/fvPRgfs/sleeping.jpg"
     },
 
@@ -24,6 +27,7 @@
       "id": "4",
       "activityName": "Prayer",
       "time": "42",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quaerat facilis, vero possimus ratione quam. Corrupti iste culpa vitae deleniti.",
       "image": "https://i.ibb.co/q7zQz5r/prayer.jpg"
     },
 
@@ -31,6 +35,7 @@
       "id": "5",
       "activityName": "Coding",
       "time": "78",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quaerat facilis, vero possimus ratione quam. Corrupti iste culpa vitae deleniti.",
       "image": "https://i.ibb.co/Yj8GSb8/coding.jpg"
     },
 
@@ -38,7 +43,8 @@
       "id": "6",
       "activityName": "Sport",
       "time": "32",
-      "image": "https://i.ibb.co/qFTk9T3/sport.jpg"
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quaerat facilis, vero possimus ratione quam. Corrupti iste culpa vitae deleniti.",
+      "image": "https://i.ibb.co/ChZMbW4/sport.jpg"
     }
    
 ]
