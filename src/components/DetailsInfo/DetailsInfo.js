@@ -17,8 +17,8 @@ const selectedBreak = (event) => {
 }
 
 useEffect(() => {
-  const minsFromLocalStorage = showLocalStorageData();
-  setBreakTime(minsFromLocalStorage);
+  const localStorageMin = showLocalStorageData();
+  setBreakTime(localStorageMin);
 }, [])
 
   return (
